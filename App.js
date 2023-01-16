@@ -4,8 +4,10 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      
+     <View style={styles.heder}>
+       <Text style={styles.boldText}> HIII  </Text>
+     </View>
     </View>
   );
 }
@@ -13,8 +15,15 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'yellow',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  heder:{
+    backgroundColor: 'pink',
+    padding:20
+  },
+  boldText:{
+    fontWeight: 'bold',
+  }
 });
