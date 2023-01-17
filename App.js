@@ -6,7 +6,7 @@ export default function App() {
     <View style={styles.container}>
       
      <View style={styles.heder}>
-       <Text style={styles.boldText}> HIIIiii  </Text>
+       <Text style={styles.boldText}> HIIIiiiiiii  </Text>
      </View>
     </View>
   );
